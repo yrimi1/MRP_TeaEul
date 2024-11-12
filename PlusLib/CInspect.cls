@@ -453,6 +453,45 @@ ErrHandler:
     Err.Raise Err.Number, ErrorSource(CLASS_NAME, "GetGradeQtyByOrder"), Err.Description
 End Function
 
+'------------------------------
+Public Function GetGradeQtyByLot(sOrderID As String, sOrderSeq As Integer, sLotNo As String, _
+                                 nChkDate As Integer, sSDate As String, sEDate As String, _
+                                 nChkExamNo As Integer, sExamNo As String) As Recordset
+    Dim adoCmd As ADODB.Command
+
+    On Error GoTo ErrHandler
+
+    Set adoCmd = New ADODB.Command
+    With adoCmd
+        .ActiveConnection = g_adoCon
+        .CommandType = adCmdStoredProc
+        .CommandText = "xp_Inspect_sGradeQtyByLot"
+
+        .Parameters.Append .CreateParameter(.CommandText, adChar, adParamInput, 10, sOrderID)
+        
+        .Parameters.Append .CreateParameter(.CommandText, adSmallInt, adParamInput, 2, sOrderSeq)
+        .Parameters.Append .CreateParameter(.CommandText, adVarChar, adParamInput, 5, sLotNo)
+        
+        .Parameters.Append .CreateParameter(.CommandText, adSmallInt, adParamInput, 1, nChkDate)
+        .Parameters.Append .CreateParameter(.CommandText, adChar, adParamInput, 8, sSDate)
+        .Parameters.Append .CreateParameter(.CommandText, adChar, adParamInput, 8, sEDate)
+'        .Parameters.Append .CreateParameter(.CommandText, adSmallInt, adParamInput, 2, nChkLotNo)
+'        .Parameters.Append .CreateParameter(.CommandText, adVarChar, adParamInput, 5, sLotNo)
+        .Parameters.Append .CreateParameter(.CommandText, adSmallInt, adParamInput, 2, nChkExamNo)
+        .Parameters.Append .CreateParameter(.CommandText, adChar, adParamInput, 2, sExamNo)
+        
+        Set GetGradeQtyByLot = .Execute
+    End With
+    Set adoCmd = Nothing
+
+    Exit Function
+
+ErrHandler:
+    Set adoCmd = Nothing
+
+    Err.Raise Err.Number, ErrorSource(CLASS_NAME, "GetGradeQtyByOrder"), Err.Description
+End Function
+
 '---------------------------
 Public Function GetGradeQtyByColor(sOrderID As String, nOrderSeq As Integer, nChkDate As Integer, sSDate As String, sEDate As String, _
     nChkLotNo As Integer, sLotNo As String, nChkExamNo As Integer, sExamNo As String) As Recordset
@@ -578,6 +617,46 @@ Public Function PrintResultByOrderExcel(sOrderID As String, nChkDate As Integer,
         .Parameters.Append .CreateParameter(.CommandText, adChar, adParamInput, 2, sExamNo)
 
         Set PrintResultByOrderExcel = .Execute
+    End With
+    Set adoCmd = Nothing
+
+    Exit Function
+
+ErrHandler:
+    Set adoCmd = Nothing
+
+    Err.Raise Err.Number, ErrorSource(CLASS_NAME, "PrintResultByOrderExcel"), Err.Description
+End Function
+
+
+'LOTº° °Ë»ç°á°úÇ¥ ¿¢¼¿ ÀÎ¼â¾ç½Ä
+Public Function PrintResultByLotExcel(sOrderID As String, sOrderSeq As Integer, sLotNo As String, _
+    nChkDate As Integer, sSDate As String, sEDate As String, _
+    nChkExamNo As Integer, sExamNo As String) As ADODB.Recordset
+    Dim adoCmd As ADODB.Command
+
+    On Error GoTo ErrHandler
+
+    Set adoCmd = New ADODB.Command
+    With adoCmd
+        .ActiveConnection = g_adoCon
+        .CommandType = adCmdStoredProc
+        .CommandText = "xp_Inspect_pResultByLot_Excel"
+                        
+
+        .Parameters.Append .CreateParameter(.CommandText, adChar, adParamInput, 10, sOrderID)
+        .Parameters.Append .CreateParameter(.CommandText, adSmallInt, adParamInput, 2, sOrderSeq)
+        .Parameters.Append .CreateParameter(.CommandText, adVarChar, adParamInput, 5, sLotNo)
+        
+        .Parameters.Append .CreateParameter(.CommandText, adSmallInt, adParamInput, 2, nChkDate)
+        .Parameters.Append .CreateParameter(.CommandText, adChar, adParamInput, 8, sSDate)
+        .Parameters.Append .CreateParameter(.CommandText, adChar, adParamInput, 8, sEDate)
+'        .Parameters.Append .CreateParameter(.CommandText, adSmallInt, adParamInput, 2, nChkLotNo)
+'        .Parameters.Append .CreateParameter(.CommandText, adVarChar, adParamInput, 5, sLotNo)
+        .Parameters.Append .CreateParameter(.CommandText, adSmallInt, adParamInput, 2, nChkExamNo)
+        .Parameters.Append .CreateParameter(.CommandText, adChar, adParamInput, 2, sExamNo)
+
+        Set PrintResultByLotExcel = .Execute
     End With
     Set adoCmd = Nothing
 
