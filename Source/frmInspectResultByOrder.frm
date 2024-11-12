@@ -272,7 +272,7 @@ Begin VB.Form frmInspectResultByOrder
       _ExtentX        =   2223
       _ExtentY        =   529
       _Version        =   393216
-      Format          =   139919361
+      Format          =   137560065
       CurrentDate     =   36871
    End
    Begin MSComCtl2.DTPicker dtpDate 
@@ -285,7 +285,7 @@ Begin VB.Form frmInspectResultByOrder
       _ExtentX        =   2223
       _ExtentY        =   529
       _Version        =   393216
-      Format          =   139919361
+      Format          =   137560065
       CurrentDate     =   36871
    End
    Begin Threed.SSPanel pnlCaption 
@@ -474,6 +474,7 @@ Private Type TDefect
     English As String
     Defect  As String
 End Type
+
 Dim iExcelByPage As Integer                 '한 페이장 출력되는 불량의 ROW수 23개 * 2줄씩
 Private Const iDataStartRow As Integer = 9             '엑셀의 맨 첫 페이지의 데이터가 시작되는 행 조일 :9
 Private Const EXCEL_ROW As Integer = 63             '엑셀 한 페이지 총 행수(프린트 여백 내) 스카이 :66, 우성:63, FTENE:63, 유창바이오:63
@@ -616,7 +617,7 @@ Private Sub ReportPrintExcel(bDirect As Boolean)
     Dim lnCurRow        As Long
     On Error GoTo ErrHandler
     
- Screen.MousePointer = vbHourglass
+    Screen.MousePointer = vbHourglass
     
     iExcelDefStartCol = 14
     iSQLFieldCnt = 5                 'SQL의 FieldCount의 값을 가져옴   'S_201901_태을염직_02 에 의한 수정 : 35 -> 5
@@ -804,7 +805,7 @@ Private Sub ReportPrintExcel(bDirect As Boolean)
                         .Cells(5, 30) = grdData.TextMatrix(grdData.Row, 4)          ' 품명
                         .Cells(5, 53) = grdData.TextMatrix(grdData.Row, 6)         ' 가공명
                         .Cells(5, 71) = grdData.TextMatrix(grdData.Row, 12)        ' 원단폭
-                        .Cells(6, 9) = Format(grdData.TextMatrix(grdData.Row, 9), "#,##0") & IIf(grdData.TextMatrix(grdData.Row, grdData.ColIndex("UnitClss")) = "0", "Y", "M")     ' 총수량
+                        .Cells(6, 9) = Format(grdData.TextMatrix(grdData.Row, 9), "#,##0") & IIf(grdData.TextMatrix(grdData.Row, grdData.ColIndex("UnitClss")) = "0", "Y", "M")      ' 총수량
                         .Cells(6, 27) = Format(grdData.TextMatrix(grdData.Row, 13), "#,##0.0")  ' 총보상
                         .Cells(6, 44) = Format(grdData.TextMatrix(grdData.Row, 8), "#,##0")  '총 절수
                         .Cells(6, 62) = Format(grdData.TextMatrix(grdData.Row, 14), "#,##0")  '총 견본
