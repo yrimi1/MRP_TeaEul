@@ -1,0 +1,10 @@
+frmZip = 0, 0, 0, 0, C, 25, 25, 1142, 703, C
+frmFind = 0, 0, 0, 0, C, 50, 50, 1167, 728, C
+CZipFind = 0, 0, 0, 0, C
+Declare = 0, 0, 0, 0, C
+CCodeFind = 0, 0, 0, 0, C
+frmArticle = 0, 0, 0, 0, C, 75, 75, 1192, 753, C
+WizText = 0, 0, 0, 0, C, 204, 97, 675, 954, C
+frmCustom = 0, 0, 0, 0, C, 125, 125, 1242, 803, C
+CCodeRef = 0, 0, 0, 0, C
+mEncNDecrypt = 0, 0, 0, 0, C

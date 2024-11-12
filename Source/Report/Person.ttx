@@ -1,0 +1,14 @@
+PersonID	String	4	0001
+Name	String	15	홍길동
+Depart	String	20	총무부
+Duty	String	20	관리직 사원
+StartDate	String	8	20020101
+EndDate	String	8	20090101
+HandPhone	String	15	011-9090-8777
+Phone	String	15	02-766-5540
+BirthDay	String	8	19700101
+SolarClss	String	1	1
+ZipCode	String	8	234-987
+Address1	String	40	서울시 종로구 연지동
+Address2	String	40	274 (3층)
+Remark	String	50	Remark Sample

@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=Source\MRPPlus2.vbp
+Project=PlusLib\PlusLib2.vbp
+Project=PlusFind\PlusFind2.vbp

@@ -1,0 +1,14 @@
+OrderID	String	10	2003110001
+OrderNO	String	20	OrderNO
+KCustom	String	30	Custom
+Article	String	30	Article
+Color	String	30	Color
+Qty	Number		1000
+ChunkRate	Number		10.00
+StuffWidth	String	10	61/67
+Width	String	10	55/56
+WorkDensity	Number		10
+UnitWght	Number		100
+Name	String	10	Name
+UnitClss	String	1	0
+Remark	String	200	Remark Test

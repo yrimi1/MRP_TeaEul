@@ -1,0 +1,21 @@
+OrderID	String	20	20031201
+OrderNO	String	30	Order NO Sample
+CustomID	String	4	0001
+KCustom	String	30	KCustom Sample
+ArticleID	String	4	0001
+Article	String	30	Article Sample
+InRoll	Number		20
+InQty	Number		500
+InPrice	Number		300
+InReversRoll	Number		20
+InReversQty	Number		500
+InReversPrice	Number		300
+OutRoll	Number		20
+OutQty	Number		500
+OutPrice	Number		300
+OutReversRoll	Number		20
+OutReversQty	Number		500
+OutReversPrice	Number		300
+PreRoll	Number		10
+PreQty	Number		100
+PrePrice	Number		500

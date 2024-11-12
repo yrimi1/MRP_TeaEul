@@ -1,0 +1,9 @@
+Article	String	30	Article Sample
+WorkName	String	30	PD,WR
+PriceClssSTR	String	1	W
+WorkUnitPrice	Number		12345.12
+SumQty	Number		20.3
+SumQtyY	Number		20.3
+UnitClss	String	1	Y
+AmountPrice	Number		12345678
+	

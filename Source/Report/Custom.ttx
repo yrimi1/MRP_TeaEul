@@ -1,0 +1,12 @@
+CustomID	String	4	0001
+KCustom	String	15	快己魂诀荤
+RegistNo	String	10	1234-5678
+Chief	String	10	全辨悼
+ZipCode	String	7	123-456
+Address1	String	40	林家 基敲1
+Address2	String	40	林家基敲2
+Phone1	String	14	02-123-4567
+FaxNO	String	14	031-234-5678
+EMail	String	20	Test@hanmail.net
+HomePage	String	20	Wizis.co.kr
+Name	String	10	捞鉴脚

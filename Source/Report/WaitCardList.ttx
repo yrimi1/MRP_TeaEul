@@ -1,0 +1,14 @@
+CardID	String	8	04020001
+SplitID	String	4	0000
+KCustom	String	30	Custom
+Article	String	30	Article
+OrderID	String	10	2004010001
+OrderNo	String	30	Order NO
+Color	String	40	Color
+Roll	Number		1000
+Qty	Number		1000
+PreProcess	String	20	Process
+WaitProcID	String	4	0001
+NowProcess	String	20	Process
+NextProcess	String	20	Process
+BatJaNo	String	4	0001

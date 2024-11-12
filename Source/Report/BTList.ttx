@@ -1,0 +1,13 @@
+BTID	String	10	200201001
+CustomID	String	5	0001
+KCustom	String	30	KCustom Sample
+BTNO	String	30	BTNO Sample
+ArticleID	String	5	0001
+Article	String	30	Article Sample
+RecpDate	String	10	20020101
+SendDate	String	9	20020101
+ColorCnt	Number		10
+PersonID	String	5	0001
+Name	String	30	Name Sample
+BTSeq	Number		10
+Color	String	35	Color Sample

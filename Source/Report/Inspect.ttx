@@ -1,0 +1,18 @@
+KCustom	String	40	KCustom Sample
+OrderID	String	10	0010101001
+OrderNO	String	30	OrderNO Sample
+UnitClss	String		1
+Article	String	40	Article Sample
+workWidth	String	15	45"/46"
+WorkName	String	40	Work Sample
+OrderSeq	Number		1
+Color	String	40	Color Sample
+ColorQty	Number		10000
+CtrlQty	Number		10000
+SampleQty	Number		1000
+CutQty	Number		1000
+LossQty	Number		100
+LotNo	String	20	A-12
+PassQty	Number		10000
+DefectQty	Number		10000
+DefectQty1	Number		10000

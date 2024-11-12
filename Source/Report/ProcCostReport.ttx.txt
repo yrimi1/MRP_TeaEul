@@ -1,0 +1,34 @@
+OrderID	String	11	00010101001
+CustomID	String	4	0001
+CloseDate	String	8	20020101
+KCustom	String	30	위저드정보
+
+Article	String	30	Article Sample
+Sheet	String	20	L/C
+WorkName	String	30	Work Sample
+OrderNO	String	30	OrderNO Sample
+OrderQty	Number		1000000
+UnitPrice	Number		12345.12
+
+
+
+Width	String	15	56"/57"
+ChunkRate	Number		10
+ReduceRate	Number		20
+LossRate	Number		30
+UnitClss	String	1	1
+Color	String	30	Color Sample
+ColorQty	Number		1000000
+InRoll	Number		10000
+InQty	Number		1000000
+SetRoll	Number		10000
+SetQty	Number		1000000
+PassRoll	Number		10000
+PassQty	Number		1000000
+WeavRoll	Number		10000
+WeavQty	Number		1000000
+DyeRoll	Number		10000
+DyeQty	Number		1000000
+OutRoll	Number		10000
+OutQty	Number		1000000
+UnitPrice	Number		100

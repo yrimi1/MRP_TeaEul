@@ -1,0 +1,110 @@
+OrderSeq	Number		01
+Color	String	20	Color Sample
+RollNO	Number		100
+Person	String	10	ȫ�浿
+LotNo	String	20	QCLot Sample
+StuffQty	Number		100
+SampleQty	Number		100
+CutQty	Number		100
+CtrlQty	Number		100
+Weight	Number		100
+WeightUnit	Number		100
+LossQty	Number		100
+DefectQty	Number		100
+DefectPoint	Number		100
+GradeID	String	1	1
+DefectKor	String	30	KDefect Sample
+DefectEng	String	30	EDefect Sample
+BasisID	String	1	3
+BatNo	String	3	100
+D001	Number		1000
+D002	Number		2000
+D003	Number		3000
+D004	Number		4000
+D005	Number		5000
+D006	Number		6000
+D007	Number		7000
+D008	Number		8000
+D009	Number		9000
+D010	Number		1000
+D011	Number		1100
+D012	Number		1200
+D013	Number		1300
+D014	Number		1400
+D015	Number		1500
+D016	Number		1000
+D017	Number		2000
+D018	Number		3000
+D019	Number		4000
+D020	Number		5000
+D021	Number		1000
+D022	Number		1000
+D023	Number		1000
+D024	Number		1000
+D025	Number		1000
+D026	Number		1000
+D027	Number		1000
+D028	Number		1000
+D029	Number		1000
+D030	Number		1000
+E001	Number		10
+E002	Number		10
+E003	Number		10
+E004	Number		10
+E005	Number		10
+E006	Number		10
+E007	Number		10
+E008	Number		10
+E009	Number		10
+E010	Number		10
+E011	Number		10
+E012	Number		10
+E013	Number		10
+E014	Number		10
+E015	Number		10
+E016	Number		10
+E017	Number		10
+E018	Number		10
+E019	Number		10
+E020	Number		10
+E021	Number		10
+E022	Number		10
+E023	Number		10
+E024	Number		10
+E025	Number		10
+E026	Number		10
+E027	Number		10
+E028	Number		10
+E029	Number		10
+E030	Number		15
+T001	String	5	T1
+T002	String	5	T2
+T003	String	5	T3
+T004	String	5	T4
+T005	String	5	T5
+T006	String	5	T6
+T007	String	5	T7
+T008	String	5	T8
+T009	String	5	T9
+T010	String	5	T1
+T011	String	5	T1
+T012	String	5	T1
+T013	String	5	T1
+T014	String	5	T1
+T015	String	5	T1
+T016	String	5	T1
+T017	String	5	T2
+T018	String	5	T3
+T019	String	5	T4
+T020	String	5	T5
+T021	String	5	T6
+T022	String	5	T7
+T023	String	5	T8
+T024	String	5	T9
+T025	String	5	T1
+T026	String	5	T1
+T027	String	5	T1
+T028	String	5	T1
+T029	String	5	T1
+T030	String	5	T1
+Personeng	String	10	Hong

@@ -1,0 +1,62 @@
+RollNO	Number		100
+Person	String	10	ȫ�浿
+PersonID	String	8	20031101
+LotNo	String	20	QCLot Sample
+StuffQty	Number		100
+SampleQty	Number		100
+CutQty	Number		100
+CtrlQty	Number		100
+Weight	Number		100
+WeightUnit	Number	100
+LossQty	Number		100
+DefectQty	Number		100
+DefectPoint	Number	100
+GradeID	String	1	1
+EDefect	String	30	EDefect Sample
+KDefect	String	30	KDefect Sample
+BasisID	String	1	1
+D001	Number		100
+D002	Number		200
+D003	Number		300
+D004	Number		400
+D005	Number		500
+D006	Number		600
+D007	Number		700
+D008	Number		800
+D009	Number		900
+D010	Number		100
+D011	Number		110
+D012	Number		120
+D013	Number		130
+D014	Number		140
+D015	Number		150
+E001	Number		100
+E002	Number		200
+E003	Number		300
+E004	Number		400
+E005	Number		500
+E006	Number		600
+E007	Number		700
+E008	Number		800
+E009	Number		900
+E010	Number		1000
+E011	Number		1100
+E012	Number		1200
+E013	Number		1300
+E014	Number		1400
+E015	Number		1500
+T001	String	5	T1
+T002	String	5	T2
+T003	String	5	T3
+T004	String	5	T4
+T005	String	5	T5
+T006	String	5	T6
+T007	String	5	T7
+T008	String	5	T8
+T009	String	5	T9
+T010	String	5	T10
+T011	String	5	T11
+T012	String	5	T12
+T013	String	5	T13
+T014	String	5	T14
+T015	String	5	T15

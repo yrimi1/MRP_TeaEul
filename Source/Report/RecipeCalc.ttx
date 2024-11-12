@@ -1,0 +1,11 @@
+KCustom	String	30	KCustom Sample
+OrderID	String	20	OrderID
+OrderNO	String	30	OrderNO
+Article	String	30	Article
+Color	String	30	Color
+wiQty	Number		100
+wiRoll	Number		100
+UnitWght	Number		200
+PatternID	Number		02
+Pattern	String	20	Pt
+Machine	String	10	Machine

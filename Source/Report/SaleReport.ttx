@@ -1,0 +1,6 @@
+Article	String	30	Article
+WorkName	String	30	PD WR PS
+UnitPrice	Number	1000	
+Qty	Number	1000
+TotPrice	Number	1234567890
+UnitClss	String	1	Y

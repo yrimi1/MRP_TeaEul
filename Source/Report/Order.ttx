@@ -1,0 +1,17 @@
+OrderID	String	10	2003070001
+OrderNO	String	30	A-99
+KCustom	String	30	우성산업사
+DvlyDate	String	8	20020701
+ChunkRate	Number		10
+ReduceRate	Number		20
+LossRate	Number		10
+Article	String	30	Article Sample
+WorkName	String	30	Work Sample
+WorkWidth	String	15	56"/57"
+PriceClss	String		1
+OrderQty	Number		1000
+UnitClss	String	1	1
+OrderSeq	Number		01
+Color	String	30	Color Sample
+ColorQty	Number		10000
+UnitPrice	Number		100
